@@ -1,0 +1,24 @@
+.feedbackBtn {
+    color: rgb(3, 2, 2);
+    font-size: 30px;
+    font-weight: 700;
+    padding: 15px 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(212, 215, 226);
+    border-radius: 5%;
+    display: inline-flex;
+    line-height: 24px;
+    min-width: 160px;
+    box-sizing: border-box;
+  }
+  .feedbackBtn:nth-of-type(even) {
+    margin: auto 60px;
+  }
+  
+  .feedbackBtn:hover {
+    border-color: #06f;
+    background-color: rgb(104, 149, 217);
+  }
+  
